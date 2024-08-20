@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid  red; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* overflow: hidden; */
+}
+html {
+  width: 75%;
+}
+body {
+  background-color: rgb(1, 50, 67);
+  scroll-behavior: smooth;
+}
+/* <!-- =============================== Header ========================= --> */
+
+#main{
+  height: auto;
+  width: 80vw;
+  margin-left: 10% ;
+  margin-top: 3%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  /* z-index: 10; */
+  /* display: grid; */
+  /* grid-gap: 1rem; */
+  /* grid-template-columns: repeat(auto-fit , minmax(400px,1200) ); */
+
+
+}
+#main .left-box{
+  height: 27vh;
+  width: 14vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 2px solid rgb(226, 180, 27); */
+}
+#main .left-box .logo{
+  height: 4vh;
+  width: 8vw;
+  padding-left: 100%;
+}
+#main .left-box .logo1{
+  cursor: pointer;
+  max-width: 100%;
+  margin-top: 1%;
+  padding-left: 20%;
+  height: 24vh;
+  width: 20vw;
+  
+}
+#main .right-box{
+  height: 27vh;
+  width: 25vw;
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: 2px solid rgb(226, 180, 27); */
+}
+#main .right-box .logo2{
+  /* border: 2px solid white; */
+  margin: 8% 0% 5% 0%;
+  padding-left: 1%;
+  margin-top: 12%;
+  max-width: 40%;
+}
+#main .right-box .logo3{
+  max-width: 55%;
+  margin: 0 0 10% 10%;
+  /* border: 2px solid white; */
+}
+
+#main .center {
+  /* border: 2px solid rgb(226, 180, 27); */
+  height: 37vh;
+  width: 48vw;
+}
+#main .center h1 {
+  color: #32f5c8;
+  font-size: 125px;
+  font-weight: bolder;
+  text-align: start;
+  padding-top:20%;
+  padding-left: 0%;
+  line-height: 1pt;
+}
+/* <!-- ================================== Centre ================================ --> */
+
+#texts {
+  height: 20vh;
+  width: 97vw;
+  /* border: 2px solid rgb(253, 13, 161); */
+  margin-left: 12px;
+  display: flex;
+  /* text-transform: uppercase; */
+  /* justify-content: space-between; */
+}
+ #texts .para{
+  color: #b5c8d1;
+  display: flex;
+  font-size: 19px;
+  /* font-weight: bolder; */
+  align-items: flex-end;
+  margin-left: 19%;
+  /* border:2px solid rgb(40, 17, 250); */
+  height: 25vh;
+  width: 27vw;
+  /* line-height: 1pt; */
+}
+#texts .img{
+  display: flex;
+  /* border: 2px solid rgb(240, 8, 8); */
+  height: 30vh;
+  width: 50vw;
+}
+#texts .img .logo4{
+  /* max-width: 5%; */
+  height: 20vh;
+  width: 20vw;
+  max-width: 15%;
+  margin-top: 2%;
+  margin-left: 15%;
+  z-index: -1;
+  /* border: 2px solid white; */
+} 
+#texts .img .logo5{
+  /* max-width: 5%; */
+  background-position: center;
+  height: 12vh;
+  width: 18vw;
+  margin-left: 25%;
+  margin-top: 2%;
+  z-index: -1;
+  /* border: 2px solid white; */
+} 
+button{
+  /* border: 2px solid red; */
+  border: rgb(1, 50, 67);
+  height: 7vh;
+  width: 15vw;
+  margin-top: 5%;
+  margin-left: 20%;
+  background-color: #32F5C8;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(1, 50, 67);
+  cursor: pointer;
+}
+ /* =============================== Footer ===============================  */
+
+#footer{
+  height: 35vh;
+  width: 85vw;
+  /* margin-left: 5%; */
+/* border: 2px solid orange; */
+display: flex;
+/* flex-direction: column; */
+justify-content: space-around;
+margin-left: 10%;
+}
+#footer .footer-left{
+  height: 27vh;
+  width: 45vw;
+  
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  color: #91a8b3;
+  justify-content: space-around;
+  /* align-items: flex-end; */
+}
+#footer .footer-left .part{
+  height: 5vh;
+  margin-top:1%;
+  margin-left: 20%;
+  width: 20vw;
+  font-size: larger;
+  /* border: 2px solid orange; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: space-around;
+}
+#footer .footer-left img{
+  /* border: 2px solid red; */
+  height: 8vh;
+  width: 35px;
+  cursor: pointer;
+}
+#footer .footer-left p{
+  margin-right: 19%;
+}
+#footer .footer-right{
+  margin-right:10% ;
+}
+#footer .footer-right .logo6{
+  /* border: 2px solid purple; */
+  width: 20vw;
+  height: 27vh;
+  margin-top: 15%;
+}
+ /* ================  ============== Project End  ============================  */
